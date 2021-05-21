@@ -3,7 +3,7 @@ List of some interesting cloud metadata URLs
 
 ## AWS IDMSv1:
 - curl http://169.254.169.254/latest/user-data (host info and may contain creds)
-- curl http://169.254.169.254/latest/meta-data/iam/security-credentials (returns a list of roles available
+- curl http://169.254.169.254/latest/meta-data/iam/security-credentials (returns a list of roles available)
 - curl http://169.254.169.254/latest/meta-data/iam/security-credentials/[role-name] (returns aws creds for the specified role)
 - curl http://169.254.169.254/latest/meta-data/local-hostname (return local hostname info)
 - curl http://169.254.169.254/latest/meta-data/public-hostname (return public hostname info)
